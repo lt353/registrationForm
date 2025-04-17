@@ -1,19 +1,15 @@
-/*basic styling for template at the start*/
 body {
-  background-color: #282c34;
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  text-align: center;
-  padding: 20px;
+  font-family: Roboto, Helvetica, sans-serif;
 }
-p {
-  color: #61dafb;
-  font-size: 18px;
-  margin: 10px 0;
+
+label {
+  display: inline-block;
+  width: 100px;
 }
-h1 {
-  color: #bd9ee9;
-  font-size: 56px;
-  margin-bottom: 20px;
+
+.error {
+  color: red;
+  font-size: smaller;
+  display: block;
+  margin-left: 100px;
 }

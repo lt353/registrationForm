@@ -1,14 +1,13 @@
 import React from "react";
+import RegistrationForm from "./RegistrationForm";
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World!</h1>
-      <p>This is a simple template react app.</p>
-      <p>Feel free to modify it as you like.</p>
-      <p>Happy coding!</p>
-    </div>
-  );
+function App() {  
+   return (
+      <>
+         <h1>User Registration</h1>
+         <RegistrationForm />
+      </>
+   );
 }
 
 export default App;
